@@ -1,0 +1,146 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    h6{
+        text-align: justify;
+    }
+    text-decoration: none!important;
+}
+
+.strong{
+    color: #FFDE59;
+}
+.navbar img{
+    width: 150px;
+}
+.choose details{
+    padding: 10px;
+    background-color: #FFDE59 ;
+    margin: 10px;
+}
+.choose img{
+    width: 60px;
+}
+.services .card:hover{
+   background-color: #FFDE59 ;
+}
+.heropage img{
+    width:75%;
+    margin:auto!important;
+}
+.services .card{
+    border-radius: 30% 20% ;
+}
+.services img{
+    width: 120px;
+    margin:auto;
+}
+.Dog-food span{
+    color:gray;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar button{
+    background-color:#FFDE59;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.footer i{
+    margin-right: 15px;
+}
+.footer{
+    background-color:#dcd9ca;
+}
+.footer a{
+    color: black;
+}
+.book button{
+    background-color:#FFDE59;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.heropage button{
+    background-color:#FFDE59;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.owl-theme .card img{
+    padding: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: 60px!important;
+}
+.food span{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.food a{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+}
+.service1 h4{
+    text-align: center;
+}
+.food span{
+    border-bottom: 4px solid #FFDE59 ;
+    color: black;
+}
+.counter span{
+    color: #FFDE59;
+}
+.Pet_food img{
+    padding: 15px;
+}
+.aboutus2 img{
+    width: 520px!important;
+}
+.book input{
+    border-radius: 15px;
+}
+.Mobile_image{
+    display: flex;
+    padding-bottom: 20px!important;
+}
+@media(min-width:600px){
+    h2,h3,h6{
+        text-align: center;
+    }
+}
+@media (max-width:600px){
+    .counter h3{
+        text-align: center;
+    }
+    *{
+        text-align: justify;
+    }
+    .services img{
+        width: 80px;
+    }
+    .food_m{
+        margin-bottom: 16px;
+    }
+    .service1{
+        margin-bottom: 15px;
+    }
+    .aboutus2 img{
+        width: 400px!important;
+    }
+    .promise img{
+        width: 100%;
+    }
+}
+@media(min-width:1000px){
+    .promise img{
+        margin-left: 20%!important;
+    }
+}
